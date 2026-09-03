@@ -33,6 +33,12 @@ public class ListaDeComprasController {
             case 3:
                 exibirLista();
                 break;
+            case 4:
+                salvarEmAqrTexto();
+                break;
+            case 5:
+                carregarDeArqTexto();
+                break;
             case 0:
                 view.exibirMensagem("Saindo...");
                 break;
@@ -51,6 +57,16 @@ public class ListaDeComprasController {
     private void removerProduto() {
         String nome = view.lerNomeProduto();
         model.removerProduto(nome);
+    }
+
+    private void salvarEmAqrTexto() {
+        model.salvarEmArquivoTexto("lista_compras.txt"); //ou "D:/dev/lista_compras.txt"
+
+    }
+
+    private void carregarDeArqTexto() {
+        model.carregarDeArquivoTexto("lista_compras.txt"); //ou "D:/dev/lista_compras.txt"
+
     }
 
     private void exibirLista(){
