@@ -1,0 +1,21 @@
+[ {
+  "marca" : "Chevrolet",
+  "modelo" : "Onix",
+  "ano" : 2022,
+  "cor_veiculo" : "Carmim"
+}, {
+  "marca" : "Honda",
+  "modelo" : "Civic",
+  "ano" : 2023,
+  "cor_veiculo" : "Branco"
+}, {
+  "marca" : "Ford",
+  "modelo" : "Mustang",
+  "ano" : 1969,
+  "cor_veiculo" : "Vermelho"
+}, {
+  "marca" : "Toyota",
+  "modelo" : "Corolla",
+  "ano" : 2024,
+  "cor_veiculo" : "Prata"
+} ]
